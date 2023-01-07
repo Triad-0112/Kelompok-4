@@ -385,7 +385,16 @@
 				<section>
 					<section data-background-video="media/mp4/background-01.mp4" data-background-video-loop data-background-video-muted data-background-size="1080p">
 						<audio data-autoplay data-ignore src="media/mp3/1.mp3"></audio>
-						<h1>Perkembangan Content Marketing</h1>
+						<div class="container-fluid">
+							<div class="row"></div>
+							<div class="row">
+								<div class="col"></div>
+								<div class="opacity-50 shadow-lg col-lg-6 container-fluid bg-white rounded-pill">
+									<h1>Perkembangan Content Marketing</h1>
+								</div>
+								<div class="col"></div>
+							</div>
+						</div>
 					</section>
 					<section data-auto-animate data-background-image="media/img/prasejarah/1.jpg"></section>
 					<section data-auto-animate data-background-image="media/img/prasejarah/1.jpg">
@@ -513,6 +522,35 @@
 						</div>
 					</section>
 				</section>
+				<section>
+					<section data-background-video="media/mp4/background-02.mp4" data-background-video-loop data-background-size="1080p">
+						<div class="container-fluid">
+							<div class="row"></div>
+							<div class="row">
+								<div class="col"></div>
+								<div class="opacity-50 shadow-lg col-lg-6 container-fluid bg-white rounded-3">
+									<h1>Perkembangan Content Marketing pada zaman Modern Awal</h1>
+								</div>
+								<div class="col"></div>
+							</div>
+						</div>
+					</section>
+					<audio data-autoplay data-ignore src="media/mp3/1.mp3"></audio>
+					<section data-background-image="media/img/sejarah/1.png" data-background-size="1080p">
+						<div class="container-fluid">
+							<div class="row"></div>
+							<div class="row">
+								<div class="col"></div>
+								<div class="opacity-50 shadow-lg col-lg-6 container-fluid bg-white rounded-3">
+									<iframe dara-src="media/img/sejarah/1.JPG" data-preload></iframe>
+								</div>
+								<div class="col"></div>
+							</div>
+						</div>
+					</section>
+					<section data-background-image="media/img/sejarah/1.png" data-background-size="1080p">
+					</section>
+				</section>
 			</div>
 		</div>
 		<script src="/Kelompok-4/plugin/revealmenu/menu.js"></script>
@@ -521,6 +559,7 @@
 		<script src="/Kelompok-4/plugin/markdown/markdown.js"></script>
 		<script src="/Kelompok-4/plugin/highlight/highlight.js"></script>
 		<script src="/Kelompok-4/js/bootstrap.bundle.js"></script>
+		<script src="/Kelompok-4/plugin/appearance/appearance.js"></script>
 		<script>
 			// More info about initialization & config:
 			// - https://revealjs.com/initialization/
@@ -568,7 +607,8 @@
 				},
 				// Learn about plugins: https://revealjs.com/plugins/
 				plugins: [ 
-					RevealMarkdown, 
+					RevealMarkdown,
+					Appearance,
 					RevealHighlight, 
 					RevealNotes,
 					RevealMenu
